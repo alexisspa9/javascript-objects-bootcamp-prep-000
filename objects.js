@@ -15,3 +15,9 @@ function removeFromPlaylist(playlistt, artistname) {
   delete playlistt.artistname;
   
 }
+
+updatePlaylist(playlist, 'test', 'testsong');
+
+removeFromPlaylist(playlist, 'test');
+
+console.log(playlist);
