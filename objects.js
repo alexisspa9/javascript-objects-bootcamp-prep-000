@@ -18,6 +18,6 @@ function removeFromPlaylist(playlistt, artistname) {
 
 updatePlaylist(playlist, 'test', 'testsong');
 
-removeFromPlaylist(playlist, 'test');
+removeFromPlaylist(playlist, test);
 
 console.log(playlist);
